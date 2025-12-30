@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #000;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+#message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 1.5s ease;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.8),
+               0 0 20px rgba(255, 180, 255, 0.6);
+  pointer-events: none;
+  z-index: 10;
+}
+
+/* 响应式字体 */
+@media (max-width: 480px) {
+  #message {
+    font-size: 1.6rem;
+  }
+}
