@@ -244,7 +244,7 @@ let messages = [
   "好运相伴"
 ];
 let specialMessages = [
-  "添慧",
+  "佳颖",
   "2026年",
   "之后的路，我们一起走好吗？"
 ];
@@ -381,4 +381,5 @@ function playSound(sound) {
 window.onload = () => {
   animate();
   startStory();
+
 };
