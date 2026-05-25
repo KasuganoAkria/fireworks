@@ -244,7 +244,7 @@ let messages = [
   "好运相伴"
 ];
 let specialMessages = [
-  "佳颖",
+  "添慧",
   "2026年",
   "之后的路，我们一起走好吗？"
 ];
